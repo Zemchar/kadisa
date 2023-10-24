@@ -1,5 +1,40 @@
 body {
-    margin: 100;
+    margin: 0; padding:0;
+    box-sizing: border-box;
     background: plum;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    min-width: 100vh;
+    display: grid;
+    place-items: top;
+    padding-bottom: 60px;
+}
+
+.container .content{
     text-align: center;
+}
+
+.container .content h1{
+    font-size: 40px;
+    color:darkslateblue;
+    padding:5px 0;
+}
+
+.container .content p{
+    font-size: 25px;
+    color:darkslateblue;
+    padding:5px 0;
+}
+
+.container .content button{
+    height:50px;
+    width:200px;
+    color:white;
+    background:black;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
 }
