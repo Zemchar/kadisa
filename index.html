@@ -5,13 +5,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body onload = "refresh()">
+<body>
 
 <div class="container">
     <div class="content">
         <h1>Kadisa</h1>
         <p>Celebrating an entire year of the most adorable kitty in the world!</p>
-        <img src="cat1.jpg"/>
+        <img src="cat1.jpg"
+            width="400"
+            height=auto />
         <button onclick="refresh()">randomize</button>
     </div>
 </div>
@@ -20,22 +22,16 @@
     function refresh(){
         var theImages = [{
         src: "cat1.jpg",
-        width: "512",
-        height: auto,
-        display: block,
-        margin: auto
+        width: "1024",
+        height: auto
         }, {
         src: "cat2.jpg",
-        width: "512",
-        height: auto,
-        display: block,
-        margin: auto
+        width: "1024",
+        height: auto
         }, {
         src: "cat3.jpg",
-        width: "384",
-        height: auto,
-        display: block,
-        margin: auto
+        width: "768",
+        height: auto
         }];
 
         var preBuffer = [];
