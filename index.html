@@ -11,10 +11,8 @@
     <div class="content">
         <h1>Kadisa</h1>
         <p>Celebrating an entire year of the most adorable kitty in the world!</p>
-        <img src="cat1.jpg"
-            width="400"
-            height="auto" />
         <button onclick="refresh()">randomize</button>
+        refresh();
     </div>
 </div>
 
@@ -24,16 +22,22 @@
     function refresh(){
         var theImages = [{
         src: "cat1.jpg",
-        width: "2048",
-        height: "1536"
+        width: "512",
+        height: auto,
+        display: block,
+        margin: auto
         }, {
         src: "cat2.jpg",
-        width: "2048",
-        height: "1536"
+        width: "512",
+        height: auto,
+        display: block,
+        margin: auto
         }, {
         src: "cat3.jpg",
-        width: "1536",
-        height: "2048"
+        width: "384",
+        height: auto,
+        display: block,
+        margin: auto
         }];
 
         var preBuffer = [];
