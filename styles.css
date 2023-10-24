@@ -32,8 +32,8 @@ body {
 .container .content button{
     height:50px;
     width:200px;
-    color:white;
-    background:black;
+    color:black;
+    background:white;
     cursor: pointer;
     font-size: 20px;
     margin-top: 10px;
