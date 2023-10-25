@@ -8,7 +8,7 @@
 <body>
 <div class="container">
     <div class="content">
-        <h1>KadisaFUCK</h1>
+        <h1>Kadisa</h1>
         <p>Celebrating an entire year of the most adorable kitty in the world!</p>
         <button onclick="refresh()">randomize</button>
     </div>
@@ -20,7 +20,7 @@
         var theImages = [{
         src: "cat1.jpg",
         width: "514",
-        height: "384"
+        height: "384",
         }, {
         src: "cat2.jpg",
         width: "514",
@@ -62,7 +62,9 @@
         images[0].parentNode.removeChild(images[0]);
     }
     // display the image  
-    document.body.appendChild(newImage);
+    <div style="text-align: center;">
+        document.body.appendChild(newImage);
+    </div>
 }
 </script>
 
