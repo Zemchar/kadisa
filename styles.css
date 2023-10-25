@@ -29,9 +29,42 @@ body {
     padding:5px 0;
 }
 
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-image: linear-gradient(to right, hotpink, deeppink);
+    background-size: 0, 100%;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.5s;
+
+}
+button:hover{
+    background-size: 100%, 100%;
+}
 .container .content img{
     display: block;
     width:50%;
     margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+particle {
+    border-radius: 50%;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    opacity: 0;
 }
 
